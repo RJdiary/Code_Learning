@@ -40,12 +40,12 @@
 //     printf("预测孩子的身高：%.2f",child_height); //四舍五入，记得带上“.”
 // }
 
-//编程训练4
-int main() {
-    float chi;
-    float mi;
-    printf("请输入尺寸：");
-    scanf("%f",&chi);
-    mi = chi / 3;
-    printf("将尺转换成米是：%.2f",mi);
-}
+// //编程训练4
+// int main() {
+//     float chi;
+//     float mi;
+//     printf("请输入尺寸：");
+//     scanf("%f",&chi);
+//     mi = chi / 3;
+//     printf("将尺转换成米是：%.2f",mi);
+// }

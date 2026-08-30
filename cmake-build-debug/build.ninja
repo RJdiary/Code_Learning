@@ -56,6 +56,20 @@ build CMakeFiles/C_CRMDJT.dir/chapter_one.c.obj: C_COMPILER__C_CRMDJT_unscanned_
   OBJECT_DIR = CMakeFiles\C_CRMDJT.dir
   OBJECT_FILE_DIR = CMakeFiles\C_CRMDJT.dir
 
+build CMakeFiles/C_CRMDJT.dir/chapter_two.c.obj: C_COMPILER__C_CRMDJT_unscanned_Debug G$:/C_Language/C_CRMDJT/chapter_two.c || cmake_object_order_depends_target_C_CRMDJT
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\C_CRMDJT.dir\chapter_two.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C_CRMDJT.dir
+  OBJECT_FILE_DIR = CMakeFiles\C_CRMDJT.dir
+
+build CMakeFiles/C_CRMDJT.dir/chapter_three.c.obj: C_COMPILER__C_CRMDJT_unscanned_Debug G$:/C_Language/C_CRMDJT/chapter_three.c || cmake_object_order_depends_target_C_CRMDJT
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\C_CRMDJT.dir\chapter_three.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\C_CRMDJT.dir
+  OBJECT_FILE_DIR = CMakeFiles\C_CRMDJT.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target C_CRMDJT
@@ -64,7 +78,7 @@ build CMakeFiles/C_CRMDJT.dir/chapter_one.c.obj: C_COMPILER__C_CRMDJT_unscanned_
 #############################################
 # Link the executable C_CRMDJT.exe
 
-build C_CRMDJT.exe: C_EXECUTABLE_LINKER__C_CRMDJT_Debug CMakeFiles/C_CRMDJT.dir/chapter_one.c.obj
+build C_CRMDJT.exe: C_EXECUTABLE_LINKER__C_CRMDJT_Debug CMakeFiles/C_CRMDJT.dir/chapter_one.c.obj CMakeFiles/C_CRMDJT.dir/chapter_two.c.obj CMakeFiles/C_CRMDJT.dir/chapter_three.c.obj
   CONFIG = Debug
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
