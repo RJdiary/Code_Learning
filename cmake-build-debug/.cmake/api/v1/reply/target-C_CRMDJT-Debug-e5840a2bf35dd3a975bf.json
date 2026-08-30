@@ -98,19 +98,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "chapter_one.c",
+			"path" : "C/CRMDJT/chapter_one.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "chapter_two.c",
+			"path" : "C/CRMDJT/chapter_two.c",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "chapter_three.c",
+			"path" : "C/CRMDJT/chapter_three.c",
 			"sourceGroupIndex" : 0
 		}
 	],

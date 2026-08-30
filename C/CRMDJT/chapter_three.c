@@ -39,6 +39,26 @@
 //     return 0;
 // }
 
+// int main(void) {
+//     char Char1;
+//     char Char2;
+//     int Int1;
+//     int Int2;
+//
+//     Char1 = 'a';
+//     Char2 = 97;
+//     Int1 = 'a';
+//     Int2 = 97;
+//
+//     printf("%c\n",Char1);
+//     printf("%d\n",Char2);
+//     printf("%c\n",Int1);
+//     printf("%d\n",Int2);
+//
+//     return 0;
+// }
+
+//ÑµÁ·3
 int main(void) {
 
     return 0;

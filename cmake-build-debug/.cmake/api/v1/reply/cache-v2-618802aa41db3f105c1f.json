@@ -1188,6 +1188,30 @@
 			],
 			"type" : "STATIC",
 			"value" : "G:/C_Language/C_CRMDJT"
+		},
+		{
+			"name" : "Python3_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : "C:/Users/86137/AppData/Local/Programs/Python/Python39/python.exe"
+		},
+		{
+			"name" : "Python_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "No help, variable specified on the command line."
+				}
+			],
+			"type" : "UNINITIALIZED",
+			"value" : "C:/Users/86137/AppData/Local/Programs/Python/Python39/python.exe"
 		}
 	],
 	"kind" : "cache",

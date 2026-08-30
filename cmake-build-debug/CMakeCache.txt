@@ -225,6 +225,12 @@ C_CRMDJT_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 C_CRMDJT_SOURCE_DIR:STATIC=G:/C_Language/C_CRMDJT
 
+//No help, variable specified on the command line.
+Python3_EXECUTABLE:UNINITIALIZED=C:/Users/86137/AppData/Local/Programs/Python/Python39/python.exe
+
+//No help, variable specified on the command line.
+Python_EXECUTABLE:UNINITIALIZED=C:/Users/86137/AppData/Local/Programs/Python/Python39/python.exe
+
 
 ########################
 # INTERNAL cache entries
