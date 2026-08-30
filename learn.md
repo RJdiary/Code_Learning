@@ -1,20 +1,20 @@
-### 2026å¹´8æœˆ29æ—¥
+### 2026Äê8ÔÂ29ÈÕ
 
 ```c++
 child_height = (dad_height + mom_height) * 0.54;
 ```
-æç¤ºâ€œNarrowing conversion from 'double' to 'float'â€
-é—®é¢˜ï¼š0.54 æ˜¯ double ç±»å‹ï¼Œè®¡ç®—ç»“æœæ˜¯ doubleï¼Œèµ‹å€¼ç»™ float ä¼šä¸¢å¤±ç²¾åº¦ã€‚
-æ”¹è¿›æ–¹æ¡ˆï¼šä½¿ç”¨ 0.54f è¡¨ç¤º float å¸¸é‡
+ÌáÊ¾¡°Narrowing conversion from 'double' to 'float'¡±
+ÎÊÌâ£º0.54 ÊÇ double ÀàĞÍ£¬¼ÆËã½á¹ûÊÇ double£¬¸³Öµ¸ø float »á¶ªÊ§¾«¶È¡£
+¸Ä½ø·½°¸£ºÊ¹ÓÃ 0.54f ±íÊ¾ float ³£Á¿
 ```c++
 child_height = (dad_height + mom_height) * 0.54f;
 ```
 
-æµ®ç‚¹æ•°è¾“å‡ºä¿ç•™nä½å°æ•°ç”¨â€œ%.nfâ€è¡¨ç¤º
+¸¡µãÊıÊä³ö±£ÁônÎ»Ğ¡ÊıÓÃ¡°%.nf¡±±íÊ¾
 
-### 2026å¹´8æœˆ30æ—¥
+### 2026Äê8ÔÂ30ÈÕ
 
-Cè¯­è¨€ä¸­çš„å…³é”®å­—
+CÓïÑÔÖĞµÄ¹Ø¼ü×Ö
 ```c++
 auto      double  int        struct
 break     else    long       switch
@@ -26,4 +26,4 @@ default   goto    sizeof     volatile
 do        while   static     if
 ```
 
-#### æ‰€æœ‰å‡½æ•°éƒ½è¦è®°å¾—åŠ â€œreturnâ€ï¼ï¼ï¼
+#### ËùÓĞº¯Êı¶¼Òª¼ÇµÃ¼Ó¡°return¡±£¡£¡£¡
