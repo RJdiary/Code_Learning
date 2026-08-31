@@ -98,7 +98,7 @@ graph TB
 
 ### 2026年9月1日
 
-<div style="text-align: center">
+<div align="center">
     <table>
         <caption>运算符的优先级总结</caption>
         <thead>
