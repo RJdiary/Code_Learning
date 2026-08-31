@@ -58,8 +58,47 @@
 //     return 0;
 // }
 
-//训练3
-int main(void) {
+// //训练3
+// int main(void) {
+//     int age;
+//     char sex;
+//     double height;
+//     double weight;
+//     age = 31;
+//     sex = 'M';
+//     height = 1.680000;
+//     weight = 59.400000;
+//     printf("大毛的基本信息如下：\n");
+//     printf("年龄是：%d岁，性别是：%c\n",age,sex);
+//     printf("身高是：%lf，体重是：%lf\n",height,weight);
+//     return 0;
+// }
 
+//训练4
+// int main (void) {
+//
+//     return 0;
+// }
+
+//训练5
+int main (void) {
+    float one = 1.68f;
+    char two = 's';
+    int three = 8;
+    int four = 9;
+    char five = 'd';
+    double result = one+two+three-four*four+three+five;
+    printf("%lf\n",result);
     return 0;
 }
+
+//训练6
+
+//综合练习1
+
+
+//综合练习2
+
+//综合练习3
+
+//综合练习4
