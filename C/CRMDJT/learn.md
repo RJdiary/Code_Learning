@@ -28,6 +28,57 @@ do        while   static     if
 
 #### 所有函数都要记得加“return”！！！
 
+顺序结构
+```mermaid
+graph TB
+    A[A]
+    B[B]
+    A --> B
+```
+选择结构1
+```mermaid
+graph TB
+    A[A]
+    B[B]
+    P{P}
+    P --Y--> A
+    P --N--> B
+    A --> C[x]
+    B --> C[x]
+```
+选择结构2
+```mermaid
+graph TB
+    A[A]
+    P{P}
+    P --Y--> A
+    P --N--> Buttom[x]
+    A --> Buttom[x]
+
+```
+当型循环结构
+```mermaid
+graph TB
+    Top[T]
+    A[A]
+    P{P}
+    Top --> P
+    P --Y--> A
+    A --> P
+    P --N--> C[x]
+```
+直到型循环结构
+```mermaid
+graph TB
+    Top[T]
+    A[A]
+    P{P}
+    Top --> A
+    A --> P
+    P --Y--> A
+    P --N--> C[x]
+```
+
 ### 2026年8月31日
 由于字符型变量在内存中存储的是字符的ASCII码，即一个无符号整数，其形式与整数的存储形式一样，因此C语言允许<span style="background:green">字符型数据和整型数据之间相互转换</span>
 
