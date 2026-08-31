@@ -95,3 +95,142 @@ graph TB
 |  单精度型   |         float         | 4  |   -3.4×10<sup>-38</sup>~3.4×10<sup>38</sup>    |
 |  双精度型   |        double         | 8  |  -1.7×10<sup>-308</sup>~1.7×10<sup>308</sup>   |
 |  长双精度型  |      long double      | 10 | -1.2×10<sup>-4932</sup>~1.2×10<sup>4932</sup>  |
+
+### 2026年9月1日
+
+<div style="text-align: center">
+    <table>
+        <caption>运算符的优先级总结</caption>
+        <thead>
+            <tr>
+                <th>优先级</th>
+                <th>运算符</th>
+                <th>含义</th>
+                <th>结合性</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="4">1</td>
+                <td>()</td>
+                <td>圆括号</td>
+                <td rowspan="4">自左向右</td>
+            </tr>
+            <tr>
+                <td>[]</td>
+                <td>下标运算符</td>
+            </tr>
+            <tr>
+                <td>-></td>
+                <td>指向结构体成员运算符</td>
+            </tr>
+            <tr>
+                <td>.</td>
+                <td>结构体成员运算符</td>
+            </tr>
+            <tr>
+                <td rowspan="8">2</td>
+                <td>!</td>
+                <td>逻辑非运算符（单目运算符）</td>
+                <td rowspan="8">自右向左</td>
+            </tr>
+            <tr>
+                <td>~</td>
+                <td>按位取反运算符（单目运算符）</td>
+            </tr>
+            <tr>
+                <td>++</td>
+                <td>自增运算符（单目运算符）</td>
+            </tr>
+            <tr>
+                <td>--</td>
+                <td>自减运算符（单目运算符）</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>负号运算符（单目运算符）</td>
+            </tr>
+            <tr>
+                <td>*</td>
+                <td>指针运算符（单目运算符）</td>
+            </tr>
+            <tr>
+                <td>&</td>
+                <td>地址与运算符（单目运算符）</td>
+            </tr>
+            <tr>
+                <td>sizeof</td>
+                <td>长度运算符（单目运算符）</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>*、/、%</td>
+                <td>乘法、除法、求余运算符</td>
+                <td rowspan="10">自左向右</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>+、-</td>
+                <td>加法、减法运算符</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><<、>></td>
+                <td>左移、右移运算符</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td><、<=、>、>=</td>
+                <td>小于、小于等于、大于、大于等于运算符</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>==、!=</td>
+                <td>等于、不等于运算符</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>&</td>
+                <td>按位与运算符</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>^</td>
+                <td>按位异或运算符</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>|</td>
+                <td>按位或运算符</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>&&</td>
+                <td>逻辑与运算符</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>||</td>
+                <td>逻辑或运算符</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>?:</td>
+                <td>条件运算符（三目运算符）</td>
+                <td rowspan="2">自右向左</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>=、+=、-=、*=、/=、%=、>>=、<<=、&=、^=、|=</td>
+                <td>赋值运算符</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>,</td>
+                <td>逗号运算符（顺序求值运算符）</td>
+                <td>自左向右</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+

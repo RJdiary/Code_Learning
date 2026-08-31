@@ -7,4 +7,5 @@ add_executable(
         C_CRMDJT C/CRMDJT/chapter_one.c
         C/CRMDJT/chapter_two.c
         C/CRMDJT/chapter_three.c
+        C/CRMDJT/chapter_four.c
 )
